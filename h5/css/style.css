@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.continar {
+  max-width: 1150px;
+  padding: 0 30px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/** top-nav Start **/
+
+.top-nav-section {
+  background: #173a69;
+  padding: 15px 0;
+}
+.top-nav-section .continar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.top-nav-section {
+  background: #173a69;
+  padding: 15px 0;
+}
+.top-nav-section .contract-info {
+  width: 50%;
+}
+.top-nav-section .contract-info .phn {
+  position: relative;
+  padding-left: 25px;
+}
+.top-nav-section .contract-info .phn::before {
+  content: "\f2a0";
+  font-family: fontawesome;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.top-nav-section .contract-info .email {
+  position: relative;
+  padding-left: 35px;
+}
+.top-nav-section .contract-info .email::before {
+  content: "\f0e0";
+  font-family: fontawesome;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.top-nav-section .contract-info a {
+  color: #fff;
+  transition: 0.4s;
+}
+.top-nav-section .contract-info a:hover {
+  color: #a1badc;
+}
+.top-nav-section .socil-colam {
+  width: 50%;
+  text-align: right;
+}
+.top-nav-section .socil-colam a i {
+  color: #fff;
+  font-size: 18px;
+  padding-left: 15px;
+  transition: 0.4s;
+}
+.top-nav-section .socil-colam a i:hover {
+  color: #a1badc;
+}
+
+/** top-nav End **/
+
+/** top-menu bar start **/
+
+.nav-menu-section .main-colam {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav-menu-section .logo-colam {
+  width: 40%;
+  padding: 20px 0;
+}
+.nav-menu-section .menu-colam {
+  width: 60%;
+  text-align: right;
+}
+.nav-menu-section .menu-colam ul {
+  list-style: none;
+}
+.nav-menu-section .menu-colam ul li {
+  display: inline-block;
+}
+.nav-menu-section .menu-colam ul li a {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 52px;
+  padding-bottom: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.4s;
+}
+.nav-menu-section .menu-colam ul li a:hover {
+  background-color: #fbfbfb;
+  border-bottom: 4px solid #000;
+}
+
+/** top-menu bar end **/
+
+/** banner-section start **/
+
+.banner-section {
+  position: relative;
+}
+.banner-section .banner-title {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(10%, -60%);
+}
+.banner-section .banner-image {
+  background-image: url(../img/banner.png);
+  width: 100%;
+  height: 528px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-section .banner-title p {
+  text-align: justify;
+  width: 500px;
+  font-size: 14pt;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.banner-section .banner-title h1 {
+  font-size: 55pt;
+  font-weight: 600;
+}
+.banner-section .banner-title h3 {
+  font-size: 17pt;
+  font-weight: 600;
+}
+.banner-section .Contact-Us {
+  padding: 10px 30px;
+  border: none;
+  background: #173a69;
+  color: #fff;
+  font-size: 14pt;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.banner-section .Contact-Us:hover {
+  background-color: #0669f2;
+}
+.banner-section .Get-Started {
+  padding: 8px 30px;
+  border: 2px solid #173a69;
+  background: none;
+  color: #173a69;
+  font-size: 14pt;
+  font-weight: 600;
+  margin-left: 10px;
+  transition: 0.4s;
+}
+.banner-section .Get-Started:hover {
+  background-color: #173a69;
+  color: #fff;
+}
+/** banner-section end **/
+
+/** services-offer Start **/
+
+.services-section {
+  margin-top: 105px;
+}
+.services-section .services-title h2 {
+  color: #173a69;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+}
+.services-section .services-title h2::after {
+  content: url(../img/tringle.png);
+  position: absolute;
+  inset: 0;
+  transform: translateY(60px);
+}
+.services-section .service-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 160px 100px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.services-section .service-imgs img {
+  display: inline;
+}
+.services-section .service-imgs p {
+  color: #173a69;
+  margin-top: 30px;
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+/** services-offer End **/
+
+/** MID-ABOUTUS START **/
+
+.mid-aboutus-section {
+  position: relative;
+}
+.mid-aboutus-section .mid-aboutus-title {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(10%, -60%);
+}
+.mid-aboutus-section .mid-aboutus-image {
+  background-image: url(../img/mid-aboutus-imagemid-aboutus-image.png);
+  width: 100%;
+  height: 528px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mid-aboutus-section .mid-aboutus-title h2 {
+  font-size: 17pt;
+  font-weight: 600;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.mid-aboutus-section .mid-aboutus-title h2::after {
+  content: url(../img/icon2.png);
+  position: absolute;
+  inset: 0;
+  transform: translateY(240px);
+}
+.mid-aboutus-section .mid-aboutus-title p {
+  width: 750px;
+  font-size: 15pt;
+  font-weight: 400;
+}
+.mid-aboutus-section .mid-aboutus-title .p2nd-part {
+  padding-top: 30px;
+}
+
+/** MID-ABOUTUS END **/
+
+/** gallerya-section Start **/
+
+.gallerya-section {
+  margin-top: 70px;
+  padding: 50px;
+  text-align: center;
+}
+.gallerya-section .gallery-conteiner h2 {
+  color: #173a69;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 100px;
+}
+.gallerya-section .gallery-conteiner h2::after {
+  content: url(../img/tringle.png);
+  position: absolute;
+  inset: 0;
+  transform: translateY(50px);
+}
+.gallerya-section .gallery-conteiner .gallery-colam {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+.gallerya-section .gallery-conteiner .gallery-colam .img-0 {
+  position: relative;
+}
+.gallerya-section .gallery-conteiner .gallery-colam .img-0 .img-content {
+  width: 360px;
+  height: 260px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  text-align: center;
+  inset: 0;
+  opacity: 0;
+  transition: all 300ms;
+}
+.gallerya-section .gallery-conteiner .gallery-colam .img-0 .img-content:hover {
+  opacity: 1;
+}
+.gallerya-section
+  .gallery-conteiner
+  .gallery-colam
+  .img-0
+  .img-content
+  h3::after {
+  content: url(../img/gallery-icon.png);
+  position: absolute;
+  inset: 0;
+  padding-top: 105px;
+  transform: translateY(-30px);
+}
+.gallerya-section .gallery-conteiner .gallery-colam .img-0 .img-content h3 {
+  margin: 3px 0;
+  padding-top: 110px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+.gallerya-section .gallery-conteiner .gallery-colam .img-0 .img-content p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #fff;
+}
+.Get-Started {
+  padding-top: 20px;
+}
+.Get-Started .butten {
+  background-color: #173a69;
+  padding: 7px 15px;
+  color: #fff;
+  transition: 0.5s;
+}
+.Get-Started .butten:hover {
+  background-color: #3d7ee7;
+}
+/** gallerya-section END **/
+/** FOTTER SEART **/
+
+.fotter-section .lsat-tel-num {
+  background-color: #173a69;
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+  font-size: 14pt;
+  font-weight: 500;
+}
+.fotter-section .fotter-logo-dection {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+.fotter-section .fotter-logo-dection .fottr-logo img {
+  padding-bottom: 20px;
+  width: 286px;
+  height: 141px;
+}
+.fotter-section .lsat-tel-num .last-num {
+  font-size: 30px;
+  font-weight: 500;
+}
+.fotter-section .fotter-colam .fotter-social a {
+  padding: 10px 25px;
+  color: #173a69;
+  font-size: 40px;
+}
+.fotter-section .fotter-colam .fotter-social a:hover {
+  color: #3d7ee7;
+}
+.coppy-right-section {
+  padding: 10px 0;
+  background-color: #000;
+}
+.coppy-right-section .coppy-text {
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+}
+/** FOTTER END **/

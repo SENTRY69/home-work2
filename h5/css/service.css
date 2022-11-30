@@ -1,0 +1,50 @@
+.service-section {
+  position: relative;
+}
+.service-section img {
+  width: 100%;
+  height: auto;
+}
+.service-section .banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.service-section .banner-content h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+.service-section .banner-content a,
+.service-section .banner-content p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 300ms;
+}
+.service-section .banner-content a:hover {
+  color: #878787;
+}
+.service-img-row .img-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px 210px;
+}
+.service-img-row {
+  display: block;
+}
+.service-img-row .img-bottom-txt {
+  width: 360px;
+}
+.service-img-row .img-bottom-txt h3 {
+  font-size: 24px;
+  color: #173a69;
+  padding: 10px 0;
+}
+.service-img-row .img-bottom-txt p {
+ font-size: 15px;
+ color: #878787;
+}
